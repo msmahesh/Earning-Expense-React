@@ -1,0 +1,171 @@
+.App {
+  position: relative;
+  width: 762px;
+  height: auto;
+  margin: auto;
+}
+
+.colorGrey{
+  color: grey;
+}
+
+.closeSpan{
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 25px;
+}
+
+.popupOuter{
+  width: 100%;
+  z-index: 5;
+  background-color: #000;
+  opacity: 0;
+  height: 100vh;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.popupCont{
+  position: fixed;
+  width: auto;
+  padding: 25px;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  height: 150px;
+  border: 2px solid #000;
+  top: 50%;
+  left: 50%;
+  background-color: #e8e8ef;
+}
+
+.btn {
+  border: 2px solid #000;
+  padding: 5px 50px;
+  margin: 0px 25px;
+  text-align: center;
+  color: #ffffff;
+  box-shadow: 3px 3px #000;
+  font-weight: 600;
+}
+
+.addSubmit{
+  position: absolute;
+  bottom: 25px;
+}
+.bgCredit{
+  background-color: #008000;
+}
+
+.bgDebit{
+  background-color: #ff0000;
+}
+
+.colorCredit {
+  color: #008000;
+}
+
+.colorDebit {
+  color: #ff0000;
+}
+
+.textCenter{
+  text-align: center;
+}
+
+.font-10{
+  font-size: 10px;
+}
+
+.font-12{
+  font-size: 12px;
+}
+
+.font-16{
+  font-size: 16px;
+}
+
+.font-18{
+  font-size: 18px;
+}
+
+.bold {
+  font-weight: 500;
+}
+
+.expenseCont{
+  display: table;
+  background-color: #d3d3d3;
+  width: 100%;
+}
+
+.header{
+  display: table-row;
+}
+
+.tableRow{
+  display: table-row;
+}
+
+.tableChild{
+  display: table-cell;
+}
+
+.cursor{
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse; 
+}
+tr{
+  border-bottom: 2px solid;
+}
+
+td:nth-child(1){
+  width: 20%;
+}
+
+td:nth-child(2){
+  width: 60%;
+}
+
+td:nth-child(3){
+  width: 20%;
+  text-align: right;
+}
+
+.clearBoth{
+  clear: both;  
+}
+
+.paddingLeft-12{
+  padding-left: 12px;
+}
+
+.paddingBottom-12 {
+  padding-bottom: 12px;
+}
+
+.detailsSection{
+  background-color: #ffffff;
+    height: 400px;
+    overflow: auto;
+}
+
+.trashImg{
+  height: 18px;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+li  {
+  list-style-type: none;
+  padding: 6px 0;
+  border-bottom: 2px solid;
+}
